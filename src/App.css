@@ -1,38 +1,73 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  width: 30%;
+  margin-top: 2rem;
+  background-color: var(--neon);
+  color:var(--offw);
+  border-radius: 5px;
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover{
+  background-color: var(--secneon);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1{
+  color: var(--offw);
+  font-weight: bold;
+}
+.container{
+  width: 40%;
+  margin-top: 5rem;
+  border-radius: 20px;
+  box-shadow: 9px 12px var(--secneon);
+}
+.folk{
+  background-color: var(--neon);
+  color: var(--offw);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.folk img{
+  border-radius: 50%;
+  box-shadow: 5px 13px var(--secneon);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.folk img:hover{
+  transform: scale(1.1);
+}
+.folk div{
+  padding: 5px;
+}
+.folk h2{
+  font-weight: 800;
+  text-transform: capitalize;
+  text-align: left;
+}
+.folk h4{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.bdayclass{
+  color: var(--secneon);
+  box-shadow: 5px 13px var(--secneon);
+  font-weight:600;
+  position:relative;
+  display: block;
+  font-size: 0.8rem;
+  border: 1px solid var(--neon);
+  background-color: var(--offw);
+  border-radius: 12px;
+  padding: 5px;
+  cursor: pointer;
+}
+.bdayclass:hover{
+  color:var(--offw);
+  background-color: var(--neon);
+  padding:7px;
+  font-size: 0.9rem;
+  transform: scale(1.1);
+  border: 1px solid rgb(90 16 139);
+  
+  background-color: rgb(101 23 153);
 }

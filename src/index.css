@@ -1,10 +1,15 @@
+:root{
+  --neon:rgb(139, 31, 211); 
+  --offw: rgb(216, 216, 216);
+  --secneon:rgb(78 17 118);
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 3rem;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--neon);
+  text-align: center;
 }
 
 code {
